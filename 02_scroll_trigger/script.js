@@ -9,7 +9,7 @@ gsap.from("#page1 #box", {   // page1 -> box
 
 // page 2 
 
-gsap.from("#page2 #box", {   // page1 -> box
+gsap.from("#page2 #box", {   // page2 -> box
      scale : 0,
      duration : 2,
      rotate : 360,
@@ -21,9 +21,9 @@ gsap.from("#page2 #box", {   // page1 -> box
     scrollTrigger : {
         trigger : "#page2 #box",    // starting point
         scroller : "body",
-        // markers : true,
-        start : "top 60%", // this is the trigger point where the animation will start from the start of the 60% of the page
-        end : "top 30%",
+        // markers : true, // provides makers for start and end points : not for production
+        start : "top 60%", //trigger point where the animation will start from the start of the 60% of the page
+        end : "top 30%", // trigger point where the animation will end from end of the 30% of the page
 
 
 //          Scrub :  makes the animation work as we scroll, in earlier cases when the trigger point is hit the box animates, but here while we scroll the animation happens accordingly
@@ -38,7 +38,7 @@ gsap.from("#page2 #box", {   // page1 -> box
 
 // page 3 
 
-gsap.from("#page3 h2", {
+gsap.from("#page3 h2", { // page3 -> h2
     opacity : 0,
     x : 500,
     duration : 2,
@@ -50,7 +50,7 @@ gsap.from("#page3 h2", {
     }
 })
 
-gsap.from("#page3 h3", {
+gsap.from("#page3 h3", {  //// page3 -> h2
     opacity : 0,
     x : -500,
     duration : 2,
