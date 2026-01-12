@@ -25,9 +25,6 @@ gsap.from("#page2 #box", {   // page2 -> box
         start : "top 60%", //trigger point where the animation will start from the start of the 60% of the page
         end : "top 30%", // trigger point where the animation will end from end of the 30% of the page
 
-
-//          Scrub :  makes the animation work as we scroll, in earlier cases when the trigger point is hit the box animates, but here while we scroll the animation happens accordingly
-//  and if we scroll backward the animation also animates backwards
         // scrub : true,     boolean value
         scrub : 3,    // range 1-5 according to the smoothness
     }
@@ -77,9 +74,6 @@ gsap.to("#page4 h1",{
         // end : "top -100%",
          end : "top -150%",  // to make it more slowwer
         scrub : 5,
-         //pin : it make the element stop at the particular location
-         // also wheneever we use pin, we only trigger the parent element 
          pin : true,
- 
     }
 })
