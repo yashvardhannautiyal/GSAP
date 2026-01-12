@@ -5,12 +5,12 @@ gsap.to("#box", {
     duration : 2,    //time takes
     delay : 1,        //after what time animation takes place
     rotate : 360,   //rotate in degree by default
-    backgroundColor : "blue",
+    backgroundColor : "blue", // chnages color to blue
     borderRadius: "50%",
-    scale : 2,     // 2x size
+    scale : 2,     // increase size; here 2x
     // repeat : 1, // first run default + repeat 1
-    // repeat : 2, // first run defautl + repeat 2 
-    repeat : -1, // runs infintely
+     repeat : 2, // first run defautl + repeat 2 
+    // repeat : -1, // runs infintely
     yoyo : true, // intial to final + final to initial
 })
 
@@ -45,27 +45,29 @@ gsap.from("h1", {
 // *********************************************************************************
 //TIMELINES
 
-//manual method to calculate time required
+//MANUAL METHOD
+// - asynchronous : to calculate time required
 
 // gsap.to("#box3", {
 //     x: 1500,
 //     rotate : 360,
-//     duration : 1.5,
+//     duration : 2,
 //     delay : 1
 // })
 
 // gsap.to("#box4", {
 //     x: 1500,
 //     backgroundColor : "red",
-//     duration : 1.5,
-//     delay : 2.5,   // duration of previous + delay of previous
+//     duration : 2,
+//     delay : 3,   // duration of box3 + delay of box3
 // })
 
 // gsap.to("#box5", {
 //     x : 1500,
 //     scale : 0.5,
 //     borderRadius : "50%",
-//     delay : 4
+//     duration : 2,
+//     delay : 5 // duration of box4 + delay of box3
 // })
 
 
