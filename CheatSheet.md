@@ -109,6 +109,30 @@ gsap cdn (google) - copyt first script and paste it above the linked script tag
 
 # 03_SVG_Animations
 
+#### SVG 
+- Scallable Vector Graphics
+- it is a container
+- whenevr we zoom an image their pixels become blury; to avoid this we use SVG's
+- these as basically text using which we can create SVG
+- google -> SVG path curve -> first mdn link
 
+#### Curves
+- line can be moulded or stretched from one point
+- Quadratic curve : can be moulded from 3 sides (called as C)
+- Cubic Curve : is a bit more complex because using this we can make several other curves; (called as Q)
+- Bezier curve : can be moulded from 4 sides
 
-SVG - Scroller Vector Graphics
+<br>
+
+from mdn - svg path curve : 
+
+` <svg width="190" height="160"> ` width and height of svg container   <br>
+  `<path d="M 10 80 Q 95 10 180 80" stroke="black" fill="transparent" /> `
+  : M (denotes move to point) from where to start the point <br>
+  10 80 (denotes x-axis and y-axis) <br>
+  Q (denotes cubic curve) <br>
+  95 10 (denotes Center point; x-axis y-axis) <br>
+  180 80 (denotes Last point; x-axis y-axis)
+  <br>
+  `stroke = "black"` : color of the line <br>
+  `</svg>`

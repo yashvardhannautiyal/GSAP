@@ -8,3 +8,17 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+body{
+    background-color: black;
+}
+
+#string{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+/* svg{
+     background-color: red; 
+} */
