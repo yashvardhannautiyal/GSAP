@@ -136,3 +136,7 @@ from mdn - svg path curve :
   <br>
   `stroke = "black"` : color of the line <br>
   `</svg>`
+
+
+# 04_Custom_Cursor
+
