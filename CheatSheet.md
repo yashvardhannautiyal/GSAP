@@ -137,6 +137,13 @@ from mdn - svg path curve :
   `stroke = "black"` : color of the line <br>
   `</svg>`
 
+#### Easeing in GSAP
+- Easing is the primary way to change the timing of your tweens. Simply changing the ease can adjust the entire feel and personality of your animation.
+- GSAP uses a default ease of `power1.out`. 
 
-# 04_Custom_Cursor
 
+### Mini Project 01 : 04_Custom_Cursor 
+- Devloping a cursor with animation movement 
+
+### Mini Project 02 : 05_Timeline_animation
+- developing a animated navbar using timeline
