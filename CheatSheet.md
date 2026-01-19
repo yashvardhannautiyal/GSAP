@@ -147,3 +147,8 @@ from mdn - svg path curve :
 
 ### Mini Project 02 : 05_Timeline_animation
 - developing a animated navbar using timeline
+- using this we can create animation to run on particular events
+
+`tl.pause();` : pauses the animation <br>
+`tl.play();` : plays the animation<br>
+`tl.reverse();` : reverses the animation
