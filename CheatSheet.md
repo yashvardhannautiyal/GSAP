@@ -152,3 +152,15 @@ from mdn - svg path curve :
 `tl.pause();` : pauses the animation <br>
 `tl.play();` : plays the animation<br>
 `tl.reverse();` : reverses the animation
+
+### Mini project 03 : 06_Text_animation
+- developing text animation
+- step 1 : break the words in seperate text in `<span>` tag using js 
+- 1.1 : use functions such as `textContent`, `split()`
+- step 2 : give animations
+
+#### imp
+- span is inline element
+- providing animation in inline elements means translate/transform like css
+- we cannot use `translate()` and `transform()` in inline elements
+- to resolve this `h1 span{display : inline-block;`
