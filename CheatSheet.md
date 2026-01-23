@@ -172,4 +172,4 @@ from mdn - svg path curve :
 - `transform: "translateX(-200%)"` : for text movement
 - `rotate : 180` : for image rotation
 
-### Project 04 : 08_Animated_Website_Complete
+### Project 04 : 08_Animated_Website

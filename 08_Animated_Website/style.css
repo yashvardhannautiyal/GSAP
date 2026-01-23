@@ -2,10 +2,155 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Google sans", sans-serif;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
+}
+
+.section1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 45px;
+}
+
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 40px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+nav h1{
+    font-size: 35px; 
+}
+
+nav h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+
+.center{
+    height: 80%;
+    width: 100%;
+    padding: 40px 45px;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 40%;
+}
+
+.center-part1 h1{
+    line-height: 1.1;
+    font-size: 50px;
+}
+
+.center-part1 p{
+    font-size: 13px;
+    width: 95%;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.center-part2{
+    height: 100%;
+    width: 60%;  
+}
+
+.center-part2 img{
+    position: absolute;
+    right: 20px;
+    height: 60%;
+    width: 50%;
+}
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+
+.section1bottom img{
+    height: 30px;
+}
+
+.section2{
+    padding-top: 50px;
+}
+
+.section2 .services{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.services h3{
+    background-color: lawngreen;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.services p{
+    width: 40%;
+    font-size: 10px;
+}
+
+.container{
+    height: 80%;
+    /* width: 100%; */
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 200px;
+    width:45%;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 8px 0px black;
 }
