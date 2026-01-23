@@ -167,3 +167,7 @@ from mdn - svg path curve :
 
 
 ### Mini project 04 : 07_Scrolling_Text_animation
+- scrolling text animation
+- `wheel` : method used for mouse movement
+- `transform: "translateX(-200%)"` : for text movement
+- `rotate : 180` : for image rotation
