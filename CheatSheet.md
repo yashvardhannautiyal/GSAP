@@ -164,3 +164,6 @@ from mdn - svg path curve :
 - providing animation in inline elements means translate/transform like css
 - we cannot use `translate()` and `transform()` in inline elements
 - to resolve this `h1 span{display : inline-block;`
+
+
+### Mini project 04 : 07_Scrolling_Text_animation
