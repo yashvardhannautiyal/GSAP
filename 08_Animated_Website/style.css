@@ -84,7 +84,9 @@ nav button{
     background-color: black;
     color: white;
     border-radius: 10px;
-    padding: 5px 15px;
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .center-part2{
