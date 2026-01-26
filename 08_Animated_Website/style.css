@@ -223,3 +223,115 @@ nav button{
     color: black;
     background-color: white;
 }
+
+.section3{
+    padding: 30px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.section3 .container{
+    background-color: rgb(231, 231, 231);
+    padding: 10px 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.section3 .container .left-side{
+    max-width: 50%;
+}
+.section3 .container .left-side h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.section3 .container .left-side p{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.section3 .container .left-side button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section3 .container .right-side{
+    width: 40%;
+}
+
+.section3 .container .right-side img{
+    display: block;
+    height: 250px;
+    right: 10px;
+}
+
+.case-study{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    align-items: center;
+}
+
+.case-study h3{
+     background-color: lawngreen;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.case-study p{
+    width: 70%;
+    font-size: 13px;
+}
+
+.section4{
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.footer-container .footer-elem{
+    padding: 30px 12px;
+    width: 30%;
+}
+
+.footer-container .footer-elem p{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.footer-container .footer-elem h5{
+    color: lawngreen;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-container .footer-elem h5 i{
+    rotate: 45deg;
+    height: 10px;
+}
+
