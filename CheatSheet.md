@@ -207,3 +207,5 @@ gsap.to("box), {
   <br>
   element : <br>
   `<div ref = {gsapRef} className = "box">`
+
+  `useRef()` : method usefull when we want to target particular element
