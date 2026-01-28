@@ -172,4 +172,38 @@ from mdn - svg path curve :
 - `transform: "translateX(-200%)"` : for text movement
 - `rotate : 180` : for image rotation
 
-### Project 04 : 08_Animated_Website
+### Mini Project 05 : 08_Animated_Website
+- animated website clone with animations
+
+# 09_GSAP with React
+
+To use GSAP in React it has a hook for it `useGSAP()` hook <br>
+
+install: 
+- `npm i gsap`
+- `npm i @gsap/react`
+
+<br>
+
+import: in APP.jsx
+- `import gsap from 'gsap';`
+- `import {useGSAP} from "@gsap/react";` 
+
+
+<br>
+
+### Syntax for usage:
+1. `useGSAP(() =>{ 
+gsap.to("box), {
+  //code
+} });`
+
+2. Using useRef() <br>
+` const gsapRef = useRef();` <br>
+  `useGSAP(() =>{` <br>
+  `gsap.to(gsapRef.current, {` <br>
+    // your animation code
+  `})   })`
+  <br>
+  element : <br>
+  `<div ref = {gsapRef} className = "box">`
