@@ -36,10 +36,16 @@ main {
   margin: 15px;
 }
 
-.circle {
-  height: 300px;
-  width: 300px;
-  margin: 15px;
-  border-radius: 50%;
-  background: linear-gradient(to right bottom, lightblue, cadetblue);
+button{
+  padding: 20px 70px;
+  border-radius: 50px;
+  background: linear-gradient(lightseagreen, seagreen);
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+button:active{
+  scale : 0.96;
 }

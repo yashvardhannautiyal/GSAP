@@ -209,3 +209,23 @@ gsap.to("box), {
   `<div ref = {gsapRef} className = "box">`
 
   `useRef()` : method usefull when we want to target particular element
+
+  ### scope()
+  it is used to run a particular element animation to work inside the given scope
+
+  syntax : <br>
+  `useGSAP(() =>{`<br> 
+    gsap.from(".box", {<br>
+      rotate: 360,<br>
+      scale: 0,<br>
+      duration: 1,<br>
+      opacity: 0,<br>
+      delay : 0.5    }) <br>
+  }, `{scope: ".container"})  `
+  or
+  `{scope:containerRef};` : using useRef()
+
+
+  ### dependencies
+  signifies the values on change of which the animation will happen
+  syntax/example : `{dependencies :[boxVal]}`
