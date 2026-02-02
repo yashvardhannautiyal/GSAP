@@ -52,6 +52,7 @@ const App = () => {
 
 
   // -------------- gsap.utils -------------
+  // dependencies
   const [boxVal, setBox] = useState(0);
   const random = gsap.utils.random(-500, 500, 100); //starting, end value, value_to_be_divisible_by
 
@@ -63,8 +64,23 @@ const App = () => {
     })
   // }, [boxVal]) or
   }, {scope:"containerRef"}, {dependencies :[boxVal]});
+
+
+  // ------------------ conext safe -------------------------
+  const boxRef2 = useRef();
+  
+  const {contextSafe} = useGSAP();
+
+  const rotateBox = contextSafe(function(){
+    gsap.to(boxRef2.current,{
+      rotate: 360,
+      duration: 1,
+    })
+  })
+
+
   return (
-    <main>
+    <><main>
       {/* <div className="box" ref={gsapRef}></div> */}
 
       <div className="container" ref={containerRef}>
@@ -84,6 +100,13 @@ const App = () => {
         move
       </button>
     </main>
+
+    {/* context safe  */}
+        <div className="container">
+          <button onClick={rotateBox}>Animate</button>
+          <div className="box" ref={boxRef2}></div>
+        </div>
+    </>
   );
 };
 

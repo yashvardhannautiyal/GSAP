@@ -49,3 +49,10 @@ button{
 button:active{
   scale : 0.96;
 }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}

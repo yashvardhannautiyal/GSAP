@@ -229,3 +229,10 @@ gsap.to("box), {
   ### dependencies
   signifies the values on change of which the animation will happen
   syntax/example : `{dependencies :[boxVal]}`
+
+  ### context safe
+   We can apply GSAP animations without using `useGSAP()` but it has some drawbacks
+
+  - useGSAP() manages all the animation memory and provides context safe
+  - we wrap the animation function inside `contextSafe` so that it does not consume more memory and does not stick it to the user's memory and does not make website slow and laggy
+  - helps in memory management
